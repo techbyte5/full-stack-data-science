@@ -1,0 +1,68 @@
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment files
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore output, logs, and temp files
+*.log
+*.out
+*.tmp
+*.bak
+
+# Ignore data files (optional — if very large or sensitive)
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.json
+*.db
+*.sqlite3
+*.h5
+
+# Ignore model files
+*.pkl
+*.joblib
+*.hdf5
+*.model
+
+# Ignore images or large media files (optional)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.mp3
+
+# Ignore notebook export files
+*.html
+*.pdf
+
+# Ignore __MACOSX folder (if using macOS at any point)
+__MACOSX/
+
+# Ignore Jupyter runtime and cache
+.jupyter/
+.ipython/
+
+# Ignore Python cache and pip
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
